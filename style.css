@@ -1,0 +1,65 @@
+.xcxz-container {
+  height: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.xcxz-container .button.dark {
+  transition: all 0.1s ease-in-out;
+  height: 100%;
+  background-color: #202020;
+  border-radius: 2px;
+  display: flex;
+  flex-grow: 1;
+  margin: 0 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.xcxz-container .button.light {
+  transition: all 0.1s ease-in-out;
+  height: 100%;
+  background-color: #e0e0e0;
+  border-radius: 2px;
+  display: flex;
+  flex-grow: 1;
+  margin: 0 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.xcxz-container .button span.dark {
+  transition: all 0.1s ease-in-out;
+  color: #aaaaaa;
+  font-size: 1rem;
+  user-select: none;
+  pointer-events: none;
+}
+
+.xcxz-container .button span.light {
+  transition: all 0.1s ease-in-out;
+  color: #606060;
+  font-size: 1rem;
+  user-select: none;
+  pointer-events: none;
+}
+
+.xcxz-container .button:hover span {
+  color: white;
+}
+
+.xcxz-container .button.dark:hover {
+  background-color: #333333;
+}
+
+.xcxz-container .button.light:hover {
+  background-color: #aaaaaa;
+}
+
+iron-overlay-backdrop {
+  visibility: hidden !important;
+}

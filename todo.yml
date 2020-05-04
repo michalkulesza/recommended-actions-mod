@@ -1,0 +1,17 @@
+//LOGIC
+#detect 'watch later' videos & add button 'remove from watch later'
+#add 'not interested' button to playlist video
+#better playlist detection - onscroll buttons disappear
+//VISUAL
+#options page
+#icon buttons option?
+#multilang
+
+
+//DONE
+//V0.1
+#detect postload of videos
+#detect light/dark theme
+//V0.2
+#detect playlists and don't add buttons to it
+#refactor the code

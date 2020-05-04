@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Recommended Actions Mod for YouTube™",
+  "version": "0.2",
+  "description": "Qickly dismiss a video from recommended page with a one click of a mouse. Use one of the three dedicated buttons.",
+  "author": "xxcuzzmexx",
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/"],
+      "js": ["main.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
